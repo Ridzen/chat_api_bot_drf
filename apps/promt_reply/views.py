@@ -14,7 +14,7 @@ class ChatAPIView(APIView):
         }
     )
     def post(self, request):
-        openai.api_key = ''
+        openai.api_key = 'sk-proj-A6dF3pCw5WStzoJd7FW5T3BlbkFJGSnch9RAEMnsHRFqtTo9'
         serializer = ChatRequestSerializer(data=request.data)
         if serializer.is_valid():
             prompt = serializer.validated_data.get("prompt")
