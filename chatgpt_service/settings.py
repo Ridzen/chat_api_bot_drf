@@ -38,7 +38,6 @@ INSTALLED_APPS = [
 
 ]
 
-OPENAI_API_KEY = '<sk-proj-A6dF3pCw5WStzoJd7FW5T3BlbkFJGSnch9RAEMnsHRFqtTo9>'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
